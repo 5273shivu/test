@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Second Page</title>
+<script src="https://kit.fontawesome.com/e62bec39ce.js" crossorigin="anonymous"></script>
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    header{
+        position:fixed;
+        background-color:white;
+        width:1263px;
+        height: 99px;
+        border: 1px gray;
+        
+        opacity:1;
+        text-align:center;
+        box-shadow: 0px 3px 8px #00000048;
+
+        
+        
+
+        
+    
+    }
+    body {
+       /* position:fixed; */
+       background-color:#F5F5F5;
+       height:595px;
+       width:1263px;
+       border: 1px solid #565454;
+       overflow:hidden;
+
+    
+    }
+    .main{
+        display:flex;
+        flex-direction: row;
+        /* background-color: #7b7a7a; */
+    }
+    img:hover{
+        border:1px solid #0070AD;
+    }
+    svg:hover{
+        border:1px solid #0070AD;
+    }
+    h1:hover,h6:hover{
+        border:1px solid #0070AD;
+    }
+    p:hover{
+        border:1px solid #0070AD;
+        
+    }
+    
+    i:hover{
+        color:white;
+    }
+    .data:hover {
+        background-color: #0070AD;
+        /* color: white; */
+    }
+    
+    
+</style>
+</head>
+<body>
+
+    <header>
+
+        
+        <div id="capgemini">
+            <img src="logo.png" style="left:70px;top:43px;position:fixed;height:39px;width:140px; ">
+            <img src="fairyblack.png" style="left:250px;top:43px;position:fixed;height:39px;width:60px; color:#0070AD; ">
+            <!-- <img src="logo.png" style=" top: 30px;left: 141px;width: 168px;height: 39px;"> -->
+            <div class ="vl" style="border:1px solid #E0E0E0;background-color:#E0E0E0;left:225px;top:43px;position:fixed;height:35px;"></div>
+            <div class="search" style="color:#0070AD;border-radius:10px;border:1px solid rgb(211, 209, 209);padding:10px;width:40px;height:35px;top:43px;position:fixed;right:250px;"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg></div>
+            <div class="bell" style="color:#0070AD;border-radius:10px;border:1px solid rgb(211, 209, 209);padding:10px;width:40px;height:35px;top:43px;position:fixed;right:200px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+              </svg></div>
+            <div class="reddot" style="color:red;top:43px;position:fixed;right:203px;"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+              </svg></div>
+            <div class="user" style="color:#0070AD;border-radius:10px;border:1px solid rgb(211, 209, 209);padding:6px;width:40px;height:35px;top:43px;position:fixed;right:150px;"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+              </svg></div>
+            <p class="name" style="color:#333333;padding:6px;top:35px;position:fixed;right:80px;font-size:small;font-family:'Ubuntu';">Donald  <i class="fa-solid fa-angle-down"></i></p>
+        </div>
+    </header>
+            
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg> -->
+            <!-- <div class="bell" style="color:#0070AD;border-radius:20px;border:2px solid rgb(211, 209, 209);padding:8px;width:200px;height:35px;bottom:55px;position:fixed;right:540px;">For DEMO Click Here</div> -->
+    <div class="main">
+        <div class="column1">
+                <h6 style="font-size: 18px;font-family:'Ubuntu',Light;top:180px;position:fixed;left:72px;color: #555555;">Step 01</h6>
+                <h1 style="font-size:35px;font-family:'Ubuntu';top:240px;position:fixed;left:70px;color: #555555;"><b>Source</b></h1>
+                <p style="color:#555555;font-family:'Ubuntu', Light;font-size:18px;top:300px;position:fixed;left:70px;width:400px;height:190px;">Choose one source to apply Capgemini’s Code of Ethics for AI to ensure ethical use of your applications</p>
+        </div>
+
+        <div class="mydiv" style="display:flex;flex-direction: row;">
+            <div class="data" id="timeline" name="timeline" style="border-radius:20px;border:1px solid rgb(211, 209, 209);padding:10px;width:130px;height:150px;top:225px;position:fixed;right:400px;background-color:white;">
+                <i class="fa-solid fa-database fa-3x " style="color:#0070AD; margin-left:32px;margin-top:18px;"></i><hr style="background-color:#E0E0E0;width: 80px;"><p style="font-family:'Ubuntu';text-align:center;color:#555555">DATA</p>
+            </div> 
+                    <!-- <i class="fa-solid fa-database"></i> -->
+            <div class="Model" style="border-radius:20px;border:1px solid rgb(211, 209, 209);padding:10px;width:130px;height:150px;top:225px;position:fixed;right:250px;background-color:white;"><i class="fa-solid fa-cube fa-3x" style="color:#0070AD; margin-left:32px;margin-top:18px;"></i><hr style="background-color:#E0E0E0;width: 80px;"><p style="font-family:'Ubuntu';text-align:center;color:#555555;">MODEL</p></div> 
+            <!-- <div class="model" style="border-radius:20px;border:1px solid rgb(211, 209, 209);padding:10px;width:110px;height:30px;bottom:30px;position:fixed;right:250px;background-color:white;"></div>  -->
+            <div class="back" style="padding:10px;bottom:30px;position:fixed;right:250px;"><a href="./page1.html"><button style="border:2px solid #E0E0E0 ;border-radius:20px;height:35px;width:100px;background-color:white;position:fixed;bottom:30px;right:250px;"><b style="color:#555555;font-family:'Ubuntu';font-size:15px;"><i class="fa-solid fa-arrow-left"></i> BACK</b></button></a></div> 
+            <div class="next" style="padding:10px;bottom:30px;position:fixed;right:250px;"><a href="./page3.html"><button style="border:2px solid #E0E0E0 ;border-radius:20px;height:35px;width:100px;background-color:#0070AD;position:fixed;bottom:30px;right:140px;"><b style="color:white;font-family:'Ubuntu';font-size:15px;">NEXT <i class="fa-solid fa-arrow-right"></i></b></button></a></div> 
+ 
+
+        </div>
+            
+    </div>
+        
+    
